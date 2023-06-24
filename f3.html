@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Personal Information</title>
+</head>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    .form-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    
+    .form-group input[type="text"],
+    .form-group input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+    }
+    
+    .form-group input[type="submit"] {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    .form-group input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    
+    .btn {
+        background-color: DodgerBlue;
+        border: none;
+        color: white;
+        padding: 12px 16px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: RoyalBlue;
+    }
+    
+    .co {
+        display: flex;
+    }
+    
+    .bo {
+        width: 500px;
+        padding: 15px;
+        height: 50px;
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        margin-right: 10px;
+        box-sizing: border-box;
+        color: rgb(0, 0, 0);
+    }
+</style>
+</head>
+
+<body>
+
+    <center>
+        <div class="co">
+            <div class="bo" style="background-color: rgb(105, 240, 226);">Step 1: Personal Information </div>
+            <div class="bo" style="background-color: rgb(105, 240, 226);">Step 2: Education</div>
+            <div class="bo" style="background-color: rgb(80, 245, 80);">Step 3: LOG IN</div>
+        </div>
+        <h1>LOG IN</h1>
+    </center>
+
+
+    <div class="container">
+
+        <form>
+            <div class="form-group">
+                <label for="name">User Name:</label>
+                <input type="text" name="name">
+            </div>
+            <div class="form-group">
+                <label for="name">Password:</label>
+                <input type="password" name="name">
+            </div>
+            <div class="form-group">
+                <label for="name">Confrom Password:</label>
+                <input type="password" name="name">
+            </div>
+
+
+            <input type="checkbox" value="agree">
+            <label for="agree">I Agree with the above terms</label><br>
+            <br><br><br>
+            <a href="./f2.html" class="btn"><i class="fa fa-arrow-left"></i> Back</a>
+
+            <a href="./end.html" class="btn"><i class="fa fa-arrow-right"></i> Next</a>
+        </form>
+    </div>
+</body>
+
+</html>
